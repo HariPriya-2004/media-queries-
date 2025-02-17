@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0;
+            box-sizing:border-box;
+
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            padding:10px;
+            
+            background-image: url(https://static.vecteezy.com/system/resources/previews/043/555/242/non_2x/realistic-3d-cinema-film-strip-in-perspective-isolated-on-blue-background-template-cinema-festival-movie-design-cinema-film-strip-for-ad-poster-presentation-show-brochure-banner-or-flyer-vector.jpg);
+            background-size: cover;
+            overflow: scroll;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+          
+
+        }
+        .box{
+           width: 200px;
+            height: 300px;
+            background-color: blue;
+            margin:10px;
+            border-radius: 10px;
+            padding:10px;
+            box-shadow: 0 0 70px;
+            
+            
+        }
+        .img1{
+            background-image: url(https://images8.alphacoders.com/869/869846.jpg);
+            background-size: cover;
+        }
+        .img2{
+            background-image: url(https://res.cloudinary.com/jerrick/image/upload/v1681698107/643cad3b900d4a001df4a835.jpg);
+             background-size: cover;
+        }
+        .img3{
+             /* background-image: url(https://images.unsplash.com/photo-1583089892943-e02e5b017b6a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFudW1hbiUyMGppfGVufDB8fDB8fHww); */
+             background-image: url(https://i.ytimg.com/vi/3xupsvU8MIA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCgYL5l3J8tvfvsZHaKXR6LMPARNQ);
+             background-size: cover;
+        }
+        .h{
+            color: white;
+            font-size: 20px;
+            text-shadow: 0 0 20px black;
+        }
+        .para{
+            color: white;
+            font-size: 15px;
+             margin-top: 10px;
+            text-shadow: 0 0px 10px blue;
+            margin-bottom: 10px;
+
+        }
+        .btn{
+            background-color: rgb(0, 0, 255);
+            color: white;
+             margin-top: 10px;
+            box-shadow: 0 0 20px black;
+            border-radius: 7px;
+            padding: 5px;
+            border: none;
+            cursor: pointer;
+
+        }
+        @media(max-width:1000px){
+            .container{
+                
+                flex-direction: column;
+                
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+     <div class="box img1">
+        <h1 class="h">Love And Drama</h1>
+        <p class="para">"It's always better when we're together."</p>
+        <button class="btn">Explore Now</button>
+    </div>
+     <div class="box img2">
+        <h1 class="h">Suspense Thrillers and Horror</h1>
+        <p class="para">"Be afraid, be very afraid."</p>
+        <button class="btn">Explore Now</button>
+    
+     </div>
+     <div class="box img3">
+        <h1 class="h">Sports Drama</h1>
+        <p class="para">"Train, conquer, repeat."</p>
+        <button class="btn" >Explore Now</button>
+     </div>
+    </div>
+    
+</body>
+</html>
